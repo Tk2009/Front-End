@@ -1,146 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tushar fitness</title>
+    <title>Best Online Food Delivery services in India|MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Quintessential&family=Supermercado+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<style>
-    body {
-        font-family: 'Lato', sans-serif;
-        color:white;
-        margin: 0px;
-        padding: 0px;
-        background:url('img/bg.jpg');
-    }
-    .left{
-        position: absolute;
-        left:60px;
-        top:20px ;
-        display: inline-block;
-        /* border: 2px solid white; */
-    }
-    .left img{
-        width:136px;
-        filter:invert(100%)
-    }
-    .left div{
-        line-height: 19px;
-        font-size:24px;
-        text-align:center;
-    }
-    .right{
-        position: absolute;
-        right:34px;
-        top:20px ;
-        display: inline-block;
-        /* border: 2px solid white; */
-    }
-    .mid{
-        display: block;
-        width:33%;
-        margin: 29px auto;
-        /* border: 2px solid white; */
-    }
-    .navbar{
-        display: inline-block;
-    }
-    .navbar li{
-        color:white;
-        display: inline-block;
-        font-size: 15px;
-    }
-    .navbar li a{
-        color:white;
-        text-decoration:none;
-        padding:34px 15px;
-    }
-    .navbar li a:hover, .navbar li a.active{
-       text-decoration: underline;
-       color:grey;
-    }
-    .btn{
-        font-family: 'Lato', sans-serif;
-        margin:0px 9px;
-        background-color: black;
-        color:white;
-        padding:4px 14px;
-        border:2px solid grey;
-        border-radius: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    .btn:hover{
-        background-color: grey;
-    }
-    .container{
-    border: 2px solid white;
-    margin: 106px 78px;
-    padding: 31px 31px;
-    width: 30%;
-    border-radius: 14px;
 
-    }
-    .form-group input{
-        text-align: center;
-        display:block;
-        width:334px;
-        padding:1px;
-        border: 1px solid black;
-        margin:10px auto;
-        font-size:20px;
-    }
-    .container h1{
-        text-align: center;
-    }
-    .container button{
-        margin:auto;
-        display: block;
-        width:33%;
-    }
-</style>
 <body>
-    <header class="header">
-        <!-- left box for logo -->
-        <div class="left">
-           <img src="img/gym.png">
-           <div>Tushar Fitness</div>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="MyOnlineMeal.com">
         </div>
-        <!-- mid box for navigation bar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Fitness Calculator</a></li> 
-                <li><a href="#">Contact us</a></li>
-            </ul>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error amet modi iure soluta nesciunt</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-seconday center">Food Catering</h2>
+                <p class="center">Luxurious Event Catering in Affordable Prices. Excellent food Quality & Trained Staff. Discover the Benefits of Planning Your Events with Us and Make It a Day to remember. We provide a sumptuous food itinerary to fulfill your each and every catering need. Be it a large, mid or small sized event, our full-range of outdoor and indoor catering services cover complete food preparation and presentation for formal and informal gatherings. Special teams and menu designs for Breakfast , Lunch , High Tea , Dinner occasions.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-seconday center">Bulk Ordering</h2>
+                <p class="center">Food is an important aspect of any trip. If you are travelling by a train, you can understand how hard it can be to arrange food for different people with different demands. You can’t afford to risk your health or your fellow travel partners by eating junk and stale food from food stalls or local vendors. If you lead the trip, then it's a daunting task since everybody relies on you for better dining choice. If the estimated plan doesn’t match the expectation, the journey becomes dull and uninteresting. Arranging food during travelling is one of those things you should not take lightly when planning your trip.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-seconday center">Food Ordering</h2>
+                <p class="center">An American online food ordering and delivery platform launched in 2014 currently operational in 1000+ major cities in different countries around the globe. The platform enables food lovers to order their favourite food from local restaurants and get it delivered at their doorstep quickly and conveniently.</p>
+            </div>
         </div>
-        <!-- right box for buttons -->
-        <div class="right">
-             <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+    </section>
+    <hr>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/logo4.png" alt="">
+            </div>
+        </div>lients
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="text" email="email" id="email" placeholder="Enter your Email">
+                <div class="form-group">
+                    <label for="name">Phone Number :</label>
+                    <input type="text" name="name" id="Phone Number" placeholder="Enter your Phone Number">
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
         </div>
-
-    </header>
-    <div class="container">
-        <h1>Join the nest gym of Ludhiana Now</h1>
-        <form action="noaction.php">
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your age">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Gender">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your DOB">
-            </div>
-            <button class="btn">submit</button>
-        </form>
-    </div>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy; MyOnlineMeal.com. All rights reserved
+        </div>
+    </footer>
 </body>
+
 </html>
